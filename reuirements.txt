@@ -1,0 +1,7 @@
+requests==2.31.0
+aiogram==2.25.1
+telethon==1.24.0
+telebot==0.0.5
+python-decouple==3.6
+openai==1.2.0
+httpx==0.24.1
