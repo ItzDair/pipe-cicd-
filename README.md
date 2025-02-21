@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Code Review Automation
 
 Этот проект автоматизирует процесс ревью кода в GitHub и GitLab с использованием OpenAI API. Он включает в себя автоматический анализ коммитов и полного кода проекта при каждом запросе на слияние.
@@ -161,3 +162,6 @@ Defined in .gitlab-ci.yml.
 Security: Never commit your OpenAI API key to the repository.
 
 OpenAI API Limitations: Be aware of request limits depending on your subscription plan.
+=======
+# pipe-ci-cd
+>>>>>>> 0cfb4423ad53269ae1e1c5d25fae9a68462db83c
