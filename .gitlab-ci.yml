@@ -1,24 +1,8 @@
-image: python:3.9
-
-before_script:
-  - pip install --upgrade pip
-  - pip install -r requirements.txt --cache-dir .cache/pip
-
 stages:
   - review
-  - full-review
 
-review:
+review_code:
   stage: review
   script:
-    - python scripts/review_commit.py
-  only:
-    - merge_requests
-    - branches  # Allow execution on branches
-
-full_review:
-  stage: full-review
-  script:
-    - python scripts/full_review.py
-  when: manual
-
+    - pip install -r requirements.txt
+    - python code_review.py

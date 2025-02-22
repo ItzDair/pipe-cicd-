@@ -1,0 +1,4 @@
+requests==2.31.0
+openai==0.28.0
+gitpython
+python-dotenv==1.0.0  # dotenv for loading environment variables
